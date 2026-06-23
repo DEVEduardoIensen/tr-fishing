@@ -981,14 +981,14 @@ ul {
 
 .footer-bottom-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 1.5rem;
+    position: relative;
 }
 
 .footer-bottom p {
     margin: 0;
+    text-align: center;
 }
 
 .btn-back-to-top {
@@ -1003,6 +1003,8 @@ ul {
     align-items: center;
     gap: 0.5rem;
     transition: all var(--transition-fast);
+    position: absolute;
+    right: 1.5rem;
 }
 
 .btn-back-to-top:hover {
@@ -1314,6 +1316,17 @@ ul {
         grid-template-columns: 1fr;
     }
     
+    .modal-overlay {
+        align-items: flex-start;
+        overflow-y: auto;
+        padding: 2rem 1.5rem;
+    }
+    
+    .modal-card {
+        margin: auto 0;
+        max-height: none;
+    }
+    
     .modal-image-area {
         height: 250px;
         min-height: auto;
@@ -1321,11 +1334,23 @@ ul {
     
     .modal-info-area {
         padding: 2rem;
-        max-height: 60vh;
+        max-height: none;
+        overflow-y: visible;
+    }
+}
+
+/* Tablet Hero Position Override */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-bg {
+        background-position: 85% center;
     }
 }
 
 @media (max-width: 768px) {
+    .hero-bg {
+        background-position: 78% center;
+    }
+
     .nav-menu {
         position: fixed;
         top: 0;
@@ -1385,6 +1410,7 @@ ul {
     }
 
     .btn-back-to-top {
+        position: static;
         margin: 0 auto;
     }
     
