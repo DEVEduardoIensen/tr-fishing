@@ -9,7 +9,7 @@ const productsData = {
         title: 'Linha Ultraline 8X',
         category: 'Linhas de Pesca',
         desc: 'A linha multifilamento ULTRALINE 8X é fabricada em 100% PE (polietileno), unindo excelente sensibilidade e resposta imediata. Fabricada em 8 fios, possui um diâmetro super uniforme que reduz o atrito com os passadores, melhorando sensivelmente o arremesso e a sensibilidade da linha. Ideal para pescaria com iscas artificiais.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_ultraline_8x.png',
         specs: {
             'Material': '100% PE (Polietileno)',
             'Trançado': '8 Fios (8X)',
@@ -24,7 +24,7 @@ const productsData = {
         title: 'Linha Ultraline 4X',
         category: 'Linhas de Pesca',
         desc: 'A linha multifilamento ULTRALINE 4X é fabricada em 100% PE (polietileno), unindo alta qualidade com preço competitivo. Seu trançado firme de 4 fios de PE proporciona resistência extraordinária à abrasão mecânica, sendo ideal para pescar em locais com alta presença de pedras, troncos e estruturas.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_ultraline_4x.png',
         specs: {
             'Material': '100% PE (Polietileno)',
             'Trançado': '4 Fios (4X)',
@@ -39,7 +39,7 @@ const productsData = {
         title: 'Linha High Tech 8X Multicolor',
         category: 'Linhas de Pesca',
         desc: 'A linha multifilamento HIGH TECH LINE 8X é fabricada em 100% PE (polietileno). Possui um acabamento encerado especial que reduz o atrito e permite um deslizamento superior pelos passadores, proporcionando arremessos muito mais longos e precisos. Produzida em cinco cores para facilitar a visualização, mudando a cada 10 metros.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_hightech_8x_multicolor.png',
         specs: {
             'Material': '100% PE (Polietileno)',
             'Trançado': '8 Fios (8X)',
@@ -54,7 +54,7 @@ const productsData = {
         title: 'Linha High Tech 4X Multicolor',
         category: 'Linhas de Pesca',
         desc: 'A linha multifilamento HIGH TECH LINE 4X é fabricada em 100% PE (polietileno). Uma escolha perfeita para pescadores que trabalham em áreas com muita estrutura. Oferece alta resistência à abrasão mecânica e é produzida em três cores vibrantes que mudam a cada 1 metro, facilitando o acompanhamento da isca.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_hightech_4x_multicolor.png',
         specs: {
             'Material': '100% PE (Polietileno)',
             'Trançado': '4 Fios (4X)',
@@ -69,7 +69,7 @@ const productsData = {
         title: 'Linha High Tech 8X Green',
         category: 'Linhas de Pesca',
         desc: 'A linha multifilamento HIGH TECH LINE 8X Green é fabricada em 100% PE (polietileno) de alta tecnologia na cor verde musgo. Com acabamento encerado especial para arremessos silenciosos e de longo alcance, alia a alta resistência do trançado de 8 fios com ótima sensibilidade para o pescador esportivo.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_hightech_8x_green.png',
         specs: {
             'Material': '100% PE (Polietileno)',
             'Trançado': '8 Fios (8X)',
@@ -84,7 +84,7 @@ const productsData = {
         title: 'Linha Fluorocarbon',
         category: 'Linhas de Pesca',
         desc: 'A linha FLUOROCARBON da TR FISHING é fabricada 100% em fluorocarbono PVDF (fluoreto de polivinilideno) com matéria-prima 100% japonesa de altíssima qualidade. Feita na cor transparente para total invisibilidade sob a água, oferece uma excelente resistência à abrasão, sendo perfeita para líderes em estruturas severas como rochas e pedras.',
-        image: 'assets/product_line.png',
+        image: 'assets/product_fluorcarbon.png',
         specs: {
             'Material': '100% PVDF (Matéria-prima Japonesa)',
             'Cor': 'Transparente (Invisível para os peixes)',
@@ -101,7 +101,7 @@ const productsData = {
         title: 'Vara Pro Chompers IM7 Series',
         category: 'Varas de Carbono',
         desc: 'A série Pro Chompers é o carro-chefe da TR Fishing em varas de alta performance. Fabricada com blank tubular de Carbono IM7 super leve e sensível, oferece ação extra rápida ideal para garantir fisgadas sólidas. Disponível nos modelos Cast (Carretilha) e Spin (Molinete).',
-        image: 'assets/product_rod.png',
+        image: 'assets/product_pro_chompers_spin.png',
         specs: {
             'Blank': 'Fibra de Carbono IM7 Tubular',
             'Libragem': '10-20 LB',
@@ -117,7 +117,7 @@ const productsData = {
         title: 'Vara Pro Chompers Spin (Molinete)',
         category: 'Varas de Carbono',
         desc: 'A vara de pesca PRO CHOMPERS SPIN é fabricada com blank de fibra de carbono IM7 tubular de alta performance. Oferece ação extra rápida com excelente custo-benefício, garantindo sensibilidade extrema e força nas fisgadas para molinete.',
-        image: 'assets/product_rod.png',
+        image: 'assets/product_pro_chompers_spin.png',
         specs: {
             'Blank': 'Fibra de Carbono IM7 Tubular',
             'Libragem': '10-20 LB',
@@ -134,7 +134,7 @@ const productsData = {
         title: 'Vara Pro Chompers Cast (Carretilha)',
         category: 'Varas de Carbono',
         desc: 'A vara de pesca PRO CHOMPERS CAST é fabricada com blank de fibra de carbono IM7 tubular de alta performance. Oferece ação extra rápida com excelente custo-benefício, garantindo sensibilidade extrema e força nas fisgadas para carretilha.',
-        image: 'assets/product_rod.png',
+        image: 'assets/product_pro_chompers_cast.png',
         specs: {
             'Blank': 'Fibra de Carbono IM7 Tubular',
             'Libragem': '10-20 LB',
@@ -151,7 +151,7 @@ const productsData = {
         title: 'Vara Starlure',
         category: 'Varas de Carbono',
         desc: 'A vara de pesca STARLURE é fabricada em fibra de carbono IM7 tubular. Oferece ação média-rápida, ideal para pesca técnica de arremesso com iscas artificiais médias e leves, aliando extrema leveza com alta sensibilidade de blank.',
-        image: 'assets/product_rod.png',
+        image: 'assets/product_starlure.png',
         specs: {
             'Blank': 'Fibra de Carbono IM7 Tubular',
             'Libragem': '8-17 LB',
@@ -168,7 +168,7 @@ const productsData = {
         title: 'Vara Rendalli (Gomo Longo)',
         category: 'Varas de Carbono',
         desc: 'A vara RENDALLI da TR FISHING é fabricada em fibra de vidro, com a ponta da vara feita em fibra de vidro maciça para máxima durabilidade. Possui estrutura telescópica em gomo longo de 1 metro por seção, sendo ideal para pescar peixes em lagos, rios e mares com extrema resistência.',
-        image: 'assets/product_rod.png',
+        image: 'assets/product_rendalli.png',
         specs: {
             'Blank': 'Fibra de Vidro (Ponta Maciça)',
             'Modelos': '3000 / 4000',
@@ -185,7 +185,7 @@ const productsData = {
         title: 'Isca Soft TR Top Shad',
         category: 'Iscas Soft',
         desc: 'A isca TR TOP SHAD foi projetada para atender os pescadores de iscas soft que adoram pescar os grandes Tucunarés e Trairões. Tem o corpo maciço com uma cauda longa que permite um trabalho imitando um peixe pequeno. Pode ser usado em spinner bait ou com anzóis off-set.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_top_shad.png',
         specs: {
             'Peso': '15 gramas',
             'Comprimento': '17 cm',
@@ -199,7 +199,7 @@ const productsData = {
         title: 'Isca Soft TR Crazy Shad',
         category: 'Iscas Soft',
         desc: 'A isca TR CRAZY SHAD tem o corpo maciço com uma cauda longa que permite um trabalho espetacular imitando um pequeno peixe. Pode ser montada no formato antienrosco com anzóis off-set, permitindo trabalhar a isca em situações de bastante estrutura.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_crazy_shad.png',
         specs: {
             'Peso': '7 gramas',
             'Comprimento': '9,5 cm',
@@ -213,7 +213,7 @@ const productsData = {
         title: 'Isca Soft TR Up Grub',
         category: 'Iscas Soft',
         desc: 'A isca TR UP GRUB tem o corpo maciço com uma cauda em foice longa que permite um trabalho espetacular e de alta vibração na água, fazendo os predadores atacarem. Pode ser usada montada com anzol off-set antienrosco em locais com estruturas.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_up_grub.png',
         specs: {
             'Peso': '10 gramas',
             'Comprimento': '9 cm',
@@ -227,7 +227,7 @@ const productsData = {
         title: 'Isca Soft TR Big Foot',
         category: 'Iscas Soft',
         desc: 'A isca TR BIG FOOT possui corpo oco com pernas volumosas que geram um trabalho espetacular de vibração na água, sendo irresistível para os peixes predadores ativos.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_big_foot.png',
         specs: {
             'Peso': '9 gramas',
             'Comprimento': '10 cm',
@@ -241,7 +241,7 @@ const productsData = {
         title: 'Isca Soft TR Craw',
         category: 'Iscas Soft',
         desc: 'A isca TR CRAW tem o corpo oco, sendo uma isca mais volumosa e com várias fissuras em seu corpo. Isso permite que a isca trabalhe emitindo vibrações embaixo da água, facilitando que o peixe a localize no fundo.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_craw.png',
         specs: {
             'Peso': '14 gramas',
             'Comprimento': '10 cm',
@@ -255,7 +255,7 @@ const productsData = {
         title: 'Isca Soft TR Big Craw',
         category: 'Iscas Soft',
         desc: 'A isca TR BIG CRAW tem o corpo oco e volumoso com várias fissuras em seu corpo, gerando vibrações fortes no fundo. Uma excelente criatura para selecionar os maiores peixes predadores em montagens como Texas Rig ou Carolina.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_big_craw.png',
         specs: {
             'Peso': '10 gramas',
             'Comprimento': '10 cm',
@@ -269,7 +269,7 @@ const productsData = {
         title: 'Isca Soft TR Big Boss',
         category: 'Iscas Soft',
         desc: 'A isca TR BIG BOSS tem o corpo maciço com quatro pernas que permitem um trabalho excelente. Com as ranhuras que tem em seu corpo, ajuda a isca a fazer uma vibração na água despertando o instinto predador.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_big_boss.png',
         specs: {
             'Peso': '8,5 gramas',
             'Comprimento': '10 cm',
@@ -283,7 +283,7 @@ const productsData = {
         title: 'Isca TR Big Frog',
         category: 'Iscas Soft',
         desc: 'A isca TR BIG FROG imita uma pequena rã nadando na superfície. É fabricada em látex premium, tendo excelente acabamento e altíssima resistência aos dentes das traíras. Seu trabalho na superfície é provocante e totalmente anti-enrosco.',
-        image: 'assets/product_bait.png',
+        image: 'assets/product_big_frog.png',
         specs: {
             'Peso': '13 gramas',
             'Comprimento': '6,5 cm',
@@ -471,6 +471,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const btn = document.querySelector(`.filter-btn[data-filter="${pendingFilter}"]`);
             if (btn) btn.click();
         }, 300);
+    }
+
+    // Dynamic year in footer
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
     }
 });
 

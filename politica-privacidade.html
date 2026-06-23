@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png?v=2">
+
     <link rel="stylesheet" href="index.css">
     <style>
         .policy-container {
@@ -80,8 +83,7 @@
     <header class="navbar-header scrolled" id="navbar">
         <div class="nav-container">
             <a href="index.html#home" class="logo-area">
-                <span class="logo-icon">TR</span>
-                <span class="logo-text">FISHING</span>
+                <img src="assets/logo.png" alt="TR Fishing Logo" class="logo-img">
             </a>
             
             <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
@@ -166,8 +168,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <a href="index.html#home" class="logo-area">
-                    <span class="logo-icon">TR</span>
-                    <span class="logo-text">FISHING</span>
+                    <img src="assets/logo.png" alt="TR Fishing Logo" class="logo-img">
                 </a>
                 <p class="footer-desc">Paixão, respeito e qualidade em cada arremesso. Equipamentos de pesca esportiva feitos de pescador para pescador.</p>
                 <div class="footer-socials">
@@ -212,11 +213,13 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 TR Fishing. Todos os direitos reservados. Projetado para máxima performance.</p>
-            <button class="btn-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Voltar ao topo">
-                Voltar ao topo
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
-            </button>
+            <div class="container footer-bottom-content">
+                <p>&copy; <span id="current-year">2026</span> TR Fishing. Todos os direitos reservados. <span class="footer-credit">Projetado para máxima performance.</span></p>
+                <button class="btn-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Voltar ao topo">
+                    Voltar ao topo
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+                </button>
+            </div>
         </div>
     </footer>
 
@@ -226,6 +229,13 @@
             window.location.href = 'index.html#produtos';
             localStorage.setItem('filterCategory', category);
         };
+        // Dynamic year in footer
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearSpan = document.getElementById('current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        });
     </script>
 </body>
 </html>

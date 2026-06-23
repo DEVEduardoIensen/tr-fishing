@@ -23,6 +23,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png?v=2">
+
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -31,8 +34,7 @@
     <header class="navbar-header" id="navbar">
         <div class="nav-container">
             <a href="#home" class="logo-area">
-                <span class="logo-icon">TR</span>
-                <span class="logo-text">FISHING</span>
+                <img src="assets/logo.png" alt="TR Fishing Logo" class="logo-img">
             </a>
             
             <!-- Mobile Menu Toggle Button -->
@@ -144,7 +146,7 @@
             <!-- Card 1 -->
             <div class="product-card" data-category="linhas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_line.png" alt="Linha Ultra Line 8X" class="product-image">
+                    <img src="assets/product_ultraline_8x.png" alt="Linha Ultra Line 8X" class="product-image">
                     <span class="product-badge">Multifilamento 8X</span>
                 </div>
                 <div class="product-info">
@@ -161,7 +163,7 @@
             <!-- Card 2 -->
             <div class="product-card" data-category="linhas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_line.png" alt="Linha High Tech 4X" class="product-image">
+                    <img src="assets/product_hightech_4x_multicolor.png" alt="Linha High Tech 4X" class="product-image">
                     <span class="product-badge">Multifilamento 4X</span>
                 </div>
                 <div class="product-info">
@@ -178,7 +180,7 @@
             <!-- Card 3 -->
             <div class="product-card" data-category="linhas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_line.png" alt="Fluorcarbon Shock Leader" class="product-image">
+                    <img src="assets/product_fluorcarbon.png" alt="Fluorcarbon Shock Leader" class="product-image">
                     <span class="product-badge">100% Fluorcarbono</span>
                 </div>
                 <div class="product-info">
@@ -195,7 +197,7 @@
             <!-- Card 4 -->
             <div class="product-card" data-category="varas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_rod.png" alt="Vara Pro Chompers" class="product-image">
+                    <img src="assets/product_pro_chompers_spin.png" alt="Vara Pro Chompers" class="product-image">
                     <span class="product-badge accent">IM7 Carbon</span>
                 </div>
                 <div class="product-info">
@@ -212,14 +214,14 @@
             <!-- Card 5 -->
             <div class="product-card" data-category="varas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_rod.png" alt="Vara Rendali" class="product-image">
+                    <img src="assets/product_rendalli.png" alt="Vara Rendali" class="product-image">
                     <span class="product-badge accent">Gomo Longo</span>
                 </div>
                 <div class="product-info">
                     <span class="product-category-tag">Varas de Carbono</span>
                     <h3 class="product-name">Vara Rendali</h3>
                     <p class="product-short-desc">Fabricada em fibra de vidro,com a ponta da vara feita em fibra de vidro maciça.</p>
-                    <button class="btn-detail" onclick="openProductDetail('rendali')">
+                    <button class="btn-detail" onclick="openProductDetail('rendalli')">
                         Ver Detalhes
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </button>
@@ -229,7 +231,7 @@
             <!-- Card 6 -->
             <div class="product-card" data-category="varas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_rod.png" alt="Vara Starlure" class="product-image">
+                    <img src="assets/product_starlure.png" alt="Vara Starlure" class="product-image">
                     <span class="product-badge accent">IM7 Carbon</span>
                 </div>
                 <div class="product-info">
@@ -246,7 +248,7 @@
             <!-- Card 7 -->
             <div class="product-card" data-category="iscas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_bait.png" alt="Isca Soft TR Top Shad" class="product-image">
+                    <img src="assets/product_top_shad.png" alt="Isca Soft TR Top Shad" class="product-image">
                     <span class="product-badge">Atração Alho</span>
                 </div>
                 <div class="product-info">
@@ -263,7 +265,7 @@
             <!-- Card 8 -->
             <div class="product-card" data-category="iscas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_bait.png" alt="Isca Soft Crazy Shad" class="product-image">
+                    <img src="assets/product_crazy_shad.png" alt="Isca Soft Crazy Shad" class="product-image">
                     <span class="product-badge">Essência + Sal</span>
                 </div>
                 <div class="product-info">
@@ -280,7 +282,7 @@
             <!-- Card 9 -->
             <div class="product-card" data-category="iscas" data-animate="fade-in">
                 <div class="product-img-wrapper">
-                    <img src="assets/product_bait.png" alt="Isca Soft Craw" class="product-image">
+                    <img src="assets/product_craw.png" alt="Isca Soft Craw" class="product-image">
                     <span class="product-badge">Lagostim 3D</span>
                 </div>
                 <div class="product-info">
@@ -485,8 +487,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <a href="index.html#home" class="logo-area">
-                    <span class="logo-icon">TR</span>
-                    <span class="logo-text">FISHING</span>
+                    <img src="assets/logo.png" alt="TR Fishing Logo" class="logo-img">
                 </a>
                 <p class="footer-desc">Paixão, respeito e qualidade em cada arremesso. Equipamentos de pesca esportiva feitos de pescador para pescador.</p>
                 <div class="footer-socials">
@@ -531,11 +532,13 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 TR Fishing. Todos os direitos reservados. Projetado para máxima performance.</p>
-            <button class="btn-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Voltar ao topo">
-                Voltar ao topo
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
-            </button>
+            <div class="container footer-bottom-content">
+                <p>&copy; <span id="current-year">2026</span> TR Fishing. Todos os direitos reservados. <span class="footer-credit">Projetado para máxima performance.</span></p>
+                <button class="btn-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Voltar ao topo">
+                    Voltar ao topo
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+                </button>
+            </div>
         </div>
     </footer>
 
