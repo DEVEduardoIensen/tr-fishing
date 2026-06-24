@@ -1376,8 +1376,12 @@ ul {
 @media (max-width: 768px) {
     .hero-section {
         min-height: 65vh;
-        padding-top: 120px;
-        padding-bottom: 80px;
+        padding-top: 155px;
+        padding-bottom: 30px;
+    }
+
+    .hero-subtitle {
+        margin-bottom: 3.75rem;
     }
 
     .hero-bg {
