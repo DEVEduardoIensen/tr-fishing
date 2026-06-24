@@ -83,7 +83,7 @@ ul {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1536px;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -172,7 +172,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1536px;
     margin: 0 auto;
     padding: 1.2rem 1.5rem;
     transition: all var(--transition-normal);
