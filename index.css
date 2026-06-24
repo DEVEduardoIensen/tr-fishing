@@ -1555,3 +1555,52 @@ ul {
 .btn-primary:active, .btn-secondary:active {
     transform: scale(0.98);
 }
+
+/* Wide Screens / Large Desktop Monitors */
+@media (min-width: 1600px) {
+    .container, .nav-container {
+        max-width: 1440px;
+    }
+    
+    .section-title {
+        font-size: 3.25rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1.15rem;
+        max-width: 750px;
+    }
+    
+    .product-name {
+        font-size: 1.35rem;
+    }
+    
+    .product-short-desc {
+        font-size: 0.95rem;
+    }
+    
+    .about-grid {
+        gap: 6rem;
+    }
+    
+    .about-content .about-lead {
+        font-size: 1.25rem;
+    }
+    
+    .about-content .about-desc {
+        font-size: 1.05rem;
+    }
+    
+    .value-card {
+        padding: 2.5rem 2rem;
+    }
+    
+    .contact-grid {
+        gap: 6rem;
+    }
+    
+    .contact-form-wrapper {
+        padding: 4rem;
+    }
+}
+
