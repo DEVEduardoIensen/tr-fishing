@@ -1341,8 +1341,22 @@ ul {
 
 /* Tablet Hero Position Override */
 @media (min-width: 601px) and (max-width: 1024px) {
+    .hero-section {
+        min-height: 75vh;
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
     .hero-bg {
-        background-position: 85% center;
+        background-position: 75% center;
+    }
+    .hero-title {
+        font-size: clamp(3.2rem, 6.5vw, 4.2rem);
+        margin-bottom: 1.75rem;
+    }
+    .hero-subtitle {
+        font-size: 1.25rem;
+        max-width: 680px;
+        margin-bottom: 3.5rem;
     }
     .about-content .section-title br,
     .contact-info .section-title br {
