@@ -229,11 +229,27 @@
             window.location.href = 'index.html#produtos';
             localStorage.setItem('filterCategory', category);
         };
-        // Dynamic year in footer
+        // Dynamic year in footer and mobile menu setup
         document.addEventListener('DOMContentLoaded', () => {
             const yearSpan = document.getElementById('current-year');
             if (yearSpan) {
                 yearSpan.textContent = new Date().getFullYear();
+            }
+
+            // Mobile Navigation Menu Toggle
+            const mobileToggle = document.getElementById('mobile-toggle');
+            const navMenu = document.getElementById('nav-menu');
+
+            if (mobileToggle && navMenu) {
+                mobileToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('open');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                        navMenu.classList.remove('open');
+                    }
+                });
             }
         });
     </script>
